@@ -1,5 +1,4 @@
 const cp = require('child_process');
-const fs = require('fs');
 
 //open calculater
 cp.execSync('calc');
