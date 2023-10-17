@@ -32,7 +32,7 @@ myBindFun();
 
 Function.prototype.myBind = function(...args){
     let fun = this
-    let param = args.slice(1) //since the first argument is the object 
+    let param = args.slice(1) //since the first argument is the object so we pass except that.
     return function(){
         fun.call(args[0],param)
     }
